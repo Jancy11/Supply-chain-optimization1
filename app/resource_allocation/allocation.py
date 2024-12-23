@@ -7,14 +7,11 @@ def optimize_resources():
     x1 = LpVariable(name="Resource_1", lowBound=0)
     x2 = LpVariable(name="Resource_2", lowBound=0)
 
-    # Objective function
     model += 20 * x1 + 30 * x2, "Total Profit"
 
-    # Constraints
     model += 2 * x1 + 4 * x2 <= 100, "Material Constraint"
     model += x1 + x2 <= 40, "Labor Constraint"
 
-    # Solve
     status = model.solve()
     return {
         "status": model.status,
