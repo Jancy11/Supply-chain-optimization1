@@ -1,5 +1,5 @@
 # Supply Chain Optimization
-****#submitted by Santhose p, Hariharan s,Aswin G College Name:Anna University Regional Campus Madurai**
+****#submitted by Santhose p,Subash Kumar k, Hariharan S,Loganathan B, Aswin G College Name:Anna University Regional Campus Madurai**
 **
 ## Description
 Supply Chain Optimization leverages data science to enhance the efficiency of supply chain operations. By optimizing logistics, inventory management, and demand forecasting, the project aims to streamline processes and reduce operational costs.
